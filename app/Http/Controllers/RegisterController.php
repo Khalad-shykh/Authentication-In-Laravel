@@ -29,7 +29,7 @@ class RegisterController extends Controller
             
             auth()->login($user);
             session()->flash('success','Registeration Succesfull.');
-            return redirect("/home");
+            return redirect("/");
     }
 
     

@@ -17,10 +17,7 @@ use App\Http\Controllers\LoginController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get("/home",[HomeController::class,"home"]);
+Route::get("/",[HomeController::class,"home"]);
 Route::get("/Register",[RegisterController::class,"register_form"])->middleware("guest");
 Route::post("/Register",[RegisterController::class,"register"])->name("Register")->middleware("guest");
 Route::get('/logout', [LoginController::class, 'logout'])->name('logout')->middleware("auth");

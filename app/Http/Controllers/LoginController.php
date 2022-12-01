@@ -20,10 +20,9 @@ class LoginController extends Controller
                 "password"=>"required|min:8"
             ]
             );
-            $user = new User;
             if(auth()->attempt($attributes))
             {
-                return redirect("/home")->with("success","Welcome Back.");
+                return redirect("/")->with("success","Welcome Back.");
             }
             
             return back()->withInput()->withErrors(["password" => "Provided email or password incorrect !"]);
@@ -33,6 +32,6 @@ class LoginController extends Controller
     {
         $user = new User;
         auth()->logout($user);
-        return redirect("/home")->with('success','Good Bye.');
+        return redirect("/")->with('success','Good Bye.');
     }
 }
