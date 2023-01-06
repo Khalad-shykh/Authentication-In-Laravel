@@ -1,126 +1,245 @@
+</main>
+        <footer class="footer footer-2">
+          <div class="icon-boxes-container">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-6 col-lg-3">
+                          <div class="icon-box icon-box-side">
+                              <span class="icon-box-icon">
+                                  <i class="icon-rocket"></i>
+                              </span>
 
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
-  <!-- Section: Social media -->
-  <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <!-- Left -->
-    <div class="me-5 d-none d-lg-block">
-      <span>Get connected with us on social networks:</span>
-    </div>
-    <!-- Left -->
+                              <div class="icon-box-content">
+                                  <h3 class="icon-box-title">Free Shipping</h3><!-- End .icon-box-title -->
+                                  <p>Orders $50 or more</p>
+                              </div><!-- End .icon-box-content -->
+                          </div><!-- End .icon-box -->
+                      </div><!-- End .col-sm-6 col-lg-3 -->
+                      
+                      <div class="col-sm-6 col-lg-3">
+                          <div class="icon-box icon-box-side">
+                              <span class="icon-box-icon">
+                                  <i class="icon-rotate-left"></i>
+                              </span>
 
-    <!-- Right -->
-    <div>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
-    <!-- Right -->
-  </section>
-  <!-- Section: Social media -->
+                              <div class="icon-box-content">
+                                  <h3 class="icon-box-title">Free Returns</h3><!-- End .icon-box-title -->
+                                  <p>Within 30 days</p>
+                              </div><!-- End .icon-box-content -->
+                          </div><!-- End .icon-box -->
+                      </div><!-- End .col-sm-6 col-lg-3 -->
 
-  <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <!-- Grid column -->
+                      <div class="col-sm-6 col-lg-3">
+                          <div class="icon-box icon-box-side">
+                              <span class="icon-box-icon">
+                                  <i class="icon-info-circle"></i>
+                              </span>
 
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
-        <!-- Grid column -->
+                              <div class="icon-box-content">
+                                  <h3 class="icon-box-title">Get 20% Off 1 Item</h3><!-- End .icon-box-title -->
+                                  <p>When you sign up</p>
+                              </div><!-- End .icon-box-content -->
+                          </div><!-- End .icon-box -->
+                      </div><!-- End .col-sm-6 col-lg-3 -->
 
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
+                      <div class="col-sm-6 col-lg-3">
+                          <div class="icon-box icon-box-side">
+                              <span class="icon-box-icon">
+                                  <i class="icon-life-ring"></i>
+                              </span>
 
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
-  <!-- Section: Links  -->
+                              <div class="icon-box-content">
+                                  <h3 class="icon-box-title">We Support</h3><!-- End .icon-box-title -->
+                                  <p>24/7 amazing services</p>
+                              </div><!-- End .icon-box-content -->
+                          </div><!-- End .icon-box -->
+                      </div><!-- End .col-sm-6 col-lg-3 -->
+                  </div><!-- End .row -->
+              </div><!-- End .container -->
+          </div><!-- End .icon-boxes-container -->
 
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+          <div class="footer-middle border-0">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-12 col-lg-6">
+                          <div class="widget widget-about">
+                              <img src="assets/images/demos/demo-13/logo-footer.png" class="footer-logo" alt="Footer Logo" width="105" height="25">
+                              <p>Praesent dapibus, neque id cursus ucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus. </p>
+                              
+                              <div class="widget-about-info">
+                                  <div class="row">
+                                      <div class="col-sm-6 col-md-4">
+                                          <span class="widget-about-title">Got Question? Call us 24/7</span>
+                                          <a href="tel:123456789">+0123 456 789</a>
+                                      </div><!-- End .col-sm-6 -->
+                                      <div class="col-sm-6 col-md-8">
+                                          <span class="widget-about-title">Payment Method</span>
+                                          <figure class="footer-payments">
+                                              <img src="assets/images/payments.png" alt="Payment methods" width="272" height="20">
+                                          </figure><!-- End .footer-payments -->
+                                      </div><!-- End .col-sm-6 -->
+                                  </div><!-- End .row -->
+                              </div><!-- End .widget-about-info -->
+                          </div><!-- End .widget about-widget -->
+                      </div><!-- End .col-sm-12 col-lg-3 -->
+
+                      <div class="col-sm-4 col-lg-2">
+                          <div class="widget">
+                              <h4 class="widget-title">Information</h4><!-- End .widget-title -->
+
+                              <ul class="widget-list">
+                                  <li><a href="about.html">About Molla</a></li>
+                                  <li><a href="#">How to shop on Molla</a></li>
+                                  <li><a href="faq.html">FAQ</a></li>
+                                  <li><a href="contact.html">Contact us</a></li>
+                                  <li><a href="login.html">Log in</a></li>
+                              </ul><!-- End .widget-list -->
+                          </div><!-- End .widget -->
+                      </div><!-- End .col-sm-4 col-lg-3 -->
+
+                      <div class="col-sm-4 col-lg-2">
+                          <div class="widget">
+                              <h4 class="widget-title">Customer Service</h4><!-- End .widget-title -->
+
+                              <ul class="widget-list">
+                                  <li><a href="#">Payment Methods</a></li>
+                                  <li><a href="#">Money-back guarantee!</a></li>
+                                  <li><a href="#">Returns</a></li>
+                                  <li><a href="#">Shipping</a></li>
+                                  <li><a href="#">Terms and conditions</a></li>
+                                  <li><a href="#">Privacy Policy</a></li>
+                              </ul><!-- End .widget-list -->
+                          </div><!-- End .widget -->
+                      </div><!-- End .col-sm-4 col-lg-3 -->
+
+                      <div class="col-sm-4 col-lg-2">
+                          <div class="widget">
+                              <h4 class="widget-title">My Account</h4><!-- End .widget-title -->
+
+                              <ul class="widget-list">
+                                  <li><a href="#">Sign In</a></li>
+                                  <li><a href="cart.html">View Cart</a></li>
+                                  <li><a href="#">My Wishlist</a></li>
+                                  <li><a href="#">Track My Order</a></li>
+                                  <li><a href="#">Help</a></li>
+                              </ul><!-- End .widget-list -->
+                          </div><!-- End .widget -->
+                      </div><!-- End .col-sm-64 col-lg-3 -->
+                  </div><!-- End .row -->
+              </div><!-- End .container -->
+          </div><!-- End .footer-middle -->
+
+          <div class="footer-bottom">
+              <div class="container">
+                  <p class="footer-copyright">Copyright © 2019 Molla Store. All Rights Reserved.</p><!-- End .footer-copyright -->
+                  <ul class="footer-menu">
+                      <li><a href="#">Terms Of Use</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                  </ul><!-- End .footer-menu -->
+
+                  <div class="social-icons social-icons-color">
+                      <span class="social-label">Social Media</span>
+                      <a href="#" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="icon-facebook-f"></i></a>
+                      <a href="#" class="social-icon social-twitter" title="Twitter" target="_blank"><i class="icon-twitter"></i></a>
+                      <a href="#" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="icon-instagram"></i></a>
+                      <a href="#" class="social-icon social-youtube" title="Youtube" target="_blank"><i class="icon-youtube"></i></a>
+                      <a href="#" class="social-icon social-pinterest" title="Pinterest" target="_blank"><i class="icon-pinterest"></i></a>
+                  </div><!-- End .soial-icons -->
+              </div><!-- End .container -->
+          </div><!-- End .footer-bottom -->
+      </footer><!-- End .footer -->
+  </div><!-- End .page-wrapper -->
+  <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+  <div class="mobile-menu-container mobile-menu-light">
+      <div class="mobile-menu-wrapper">
+          <span class="mobile-menu-close"><i class="icon-close"></i></span>
+          
+          <form action="#" method="get" class="mobile-search">
+              <label for="mobile-search" class="sr-only">Search</label>
+              <input type="search" class="form-control" name="mobile-search" id="mobile-search" placeholder="Search in..." required>
+              <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+          </form>
+
+          <ul class="nav nav-pills-mobile nav-border-anim" role="tablist">
+              <li class="nav-item">
+                  <a class="nav-link active" id="mobile-menu-link" data-toggle="tab" href="#mobile-menu-tab" role="tab" aria-controls="mobile-menu-tab" aria-selected="true">Menu</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" id="mobile-cats-link" data-toggle="tab" href="#mobile-cats-tab" role="tab" aria-controls="mobile-cats-tab" aria-selected="false">Categories</a>
+              </li>
+          </ul>
+
+          <div class="tab-content">
+              <div class="tab-pane fade show active" id="mobile-menu-tab" role="tabpanel" aria-labelledby="mobile-menu-link">
+                  <nav class="mobile-nav">
+                      <ul class="mobile-menu">
+                          <li class="active">
+                              <a href="#">Home</a>
+                          </li>
+                          <li>
+                              <a href="category.html">Shop</a>
+                            
+                          </li>
+                          <li>
+                              <a href="product.html" class="sf-with-ul">Product</a>
+                          
+                          </li>
+                          <li>
+                              <a href="#">Pages</a>
+                            
+                          </li>
+                          <li>
+                              <a href="blog.html">Blog</a>
+                                  </li>
+                                  <li>
+                                      <a href="#">Single Post</a>
+                          </li>
+                          <li>
+                            @if (auth()->check())
+                            <a href="{{route('logout')}}">logout</a>
+                            @else
+                            <a href="{{route('login')}}">login</a>
+                            @endif
+                              
+                             
+                          </li>
+                      </ul>
+                  </nav><!-- End .mobile-nav -->
+              </div><!-- .End .tab-pane -->
+              <div class="tab-pane fade" id="mobile-cats-tab" role="tabpanel" aria-labelledby="mobile-cats-link">
+                  <nav class="mobile-cats-nav">
+                      <ul class="mobile-cats-menu">
+                          <li><a class="mobile-cats-lead" href="#">Daily offers</a></li>
+                          <li><a class="mobile-cats-lead" href="#">Gift Ideas</a></li>
+                      </ul><!-- End .mobile-cats-menu -->
+                  </nav><!-- End .mobile-cats-nav -->
+              </div><!-- .End .tab-pane -->
+          </div><!-- End .tab-content -->
+
+          <div class="social-icons">
+              <a href="#" class="social-icon" target="_blank" title="Facebook"><i class="icon-facebook-f"></i></a>
+              <a href="#" class="social-icon" target="_blank" title="Twitter"><i class="icon-twitter"></i></a>
+              <a href="#" class="social-icon" target="_blank" title="Instagram"><i class="icon-instagram"></i></a>
+              <a href="#" class="social-icon" target="_blank" title="Youtube"><i class="icon-youtube"></i></a>
+          </div><!-- End .social-icons -->
+      </div><!-- End .mobile-menu-wrapper -->
+  </div><!-- End .mobile-menu-container -->
+  
+  @if (session()->has('success'))
+  <div class="badge-primary fixed-bottom rounded-pill w-75 col-md-3 mb-2 m-2 ml-auto flash">
+      <span class="mt-2">{{session('success'); }}</span>
   </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
+@elseif (session()->has('faield'))
+{
+  <div class="badge-danger fixed-bottom rounded-pill w-75 col-md-3 mb-2 m-2 ml-auto flash">
+      <span class="mt-2">{{session('faield'); }}</span>
+  </div>
+}
+  @endif
     <script src="{{ url('js/jQuery.js') }}"></script>
     <script>
       $(document).ready(function () {
@@ -129,10 +248,14 @@
         }, 3000);
       });
     </script>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+        <script src="{{url("FrontEndAssets/js/jquery.min.js")}}"></script>
+        <script src="{{url("FrontEndAssets/js/bootstrap.bundle.min.js")}}"></script>
+        <script src="{{url("FrontEndAssets/js/jquery.hoverIntent.min.js")}}"></script>
+        <script src="{{url("FrontEndAssets/js/jquery.waypoints.min.js")}}"></script>
+        <script src="{{url("FrontEndAssets/js/superfish.min.js")}}"></script>
+        <script src="{{url("FrontEndAssets/js/owl.carousel.min.js")}}"></script>
+        <!-- Main JS File -->
+        <script src="{{url("FrontEndAssets/js/main.js")}}"></script>
   </body>
 </html>

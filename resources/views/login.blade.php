@@ -1,35 +1,69 @@
 @extends("layouts.main")
 @section("main-container")
-<div class="container col-md-6 bg-light mt-5 mb-5 p-5">
   @php
     $title="Login";
 @endphp
-<form method="POST" action="{{ route("login") }}">
-  @csrf
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="text" name="email" class="form-control" value="{{ old('email') }}" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  <span class="text-danger">
-    @error("email")
-      {{ $message }}
-    @enderror
-  </span>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" name="password"  class="form-control" id="exampleInputPassword1">
-    <span class="text-danger">
-      @error("password")
-        {{ $message }}
-      @enderror
-    </span>
-  </div>
-  <div class="form-group form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-</div>
+
+  <div class="container mt-3">
+    <div class="form-box">
+      <div class="form-tab">
+        <ul class="nav nav-pills nav-fill" role="tablist">
+      <li class="nav-item">
+          <a class="nav-link active">Login</a>
+      </li>
+  </ul>
+  <div class="tab-content">
+      <div class="mt-3" id="signin-2" role="tabpanel" aria-labelledby="signin-tab-2">
+        <form method="POST" action="{{ route("login1") }}">
+          @csrf
+          <div class="form-group">
+            <label for="singin-email-2">Username or email address *</label>
+            <input type="text"  value="{{ old('email') }}" class="form-control" id="singin-email-2" name="email" >
+            <span class="text-danger">
+              @error("email")
+                {{ $message }}
+              @enderror
+            </span>
+          </div><!-- End .form-group -->
+
+          <div class="form-group">
+            <label for="singin-password-2">Password *</label>
+            <input type="password" class="form-control" id="singin-password-2" name="password">
+            <span class="text-danger">
+              @error("password")
+                {{ $message }}
+              @enderror
+            </span>
+          </div><!-- End .form-group -->
+
+          <div class="form-footer">
+            <button type="submit" class="btn btn-outline-primary-2">
+                    <span>LOG IN</span>
+                  <i class="icon-long-arrow-right"></i>
+                  </button>
+
+          <a href="{{url("/Register")}}" class="forgot-link">I do'nt have an Account !</a>
+          </div><!-- End .form-footer -->
+        </form>
+        <div class="form-choice">
+          <p class="text-center">or sign in with</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="#" class="btn btn-login btn-g">
+                <i class="icon-google"></i>
+                Login With Google
+              </a>
+            </div><!-- End .col-6 -->
+            <div class="col-sm-6">
+              <a href="#" class="btn btn-login btn-f">
+                <i class="icon-facebook-f"></i>
+                Login With Facebook
+              </a>
+            </div><!-- End .col-6 -->
+          </div><!-- End .row -->
+        </div><!-- End .form-choice -->
+      </div><!-- .End .tab-pane -->
+</div><!-- End .form-tab -->
+    </div><!-- End .form-box -->
+  </div><!-- End .container -->
 @endsection
